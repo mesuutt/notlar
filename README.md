@@ -1,0 +1,1 @@
+Kendim için aldığım notlar
