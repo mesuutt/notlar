@@ -4,6 +4,7 @@
 
 
 **`CK`** Kontrol key anlamına gelir.Default'ta Ctrl+b'dir.
+
 **`Meta`** Alt tuşu anlamına gelir.
 
 --------
