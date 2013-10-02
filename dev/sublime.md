@@ -1,3 +1,4 @@
+Look at [https://sublime.wbond.net/](https://sublime.wbond.net/) for more packages
 ###Paketler
 - TrailingSpaces
 - SublimeCodeIntel
@@ -11,7 +12,7 @@
 - ColorPick
 - flake8lint
 - AdvencedNewFile
-    - otomatik __init__ olusturmaca
+    - otomatik ____init____ olusturmaca
     - aliaslar olusturma
 
 - DocBlockr
@@ -22,4 +23,10 @@
        >  Güzel konfigurasyon ayarları var.onlarada bak
 
 - Color scheme:
-   - https://github.com/daylerees/colour-schemes
+    - https://github.com/daylerees/colour-schemes
+
+- SnippetMaker
+- GotoOpenFile
+- WakeTime
+
+
