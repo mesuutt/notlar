@@ -1,2 +1,2 @@
-Sağlık, Kickbox gibi spor vb notlar
+Sağlık, beslenme, spor vb ile alakalı notlar
 
