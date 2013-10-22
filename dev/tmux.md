@@ -5,16 +5,14 @@
 
 **`CK`** Kontrol key anlamına gelir.Default'ta Ctrl+b'dir.
 
-**`Meta`** Alt tuşu anlamına gelir.
-
 --------
 
 ####Gezinti
 
 | Kısayol | Açıklama |
 | ------------- |:-------------:|
-| *Ctrl+Ok_tusları* | Pencereler arası gezinti |
-| *CK+Ok tuşları* | Pane'ler arası gezinti |
+| *Ctrl+⇆* | Pencereler arası gezinti |
+| *CK+⇆* | Pane'ler arası gezinti |
 | *CK+CK* | Bir sonraki paneye geç |
 | *CK+%* | Pencereyi dikey bölme |
 | *CK+"* | Pencereyi yatay bölme |
@@ -23,8 +21,8 @@
 
 | Kısayol | Açıklama |
 | ------------- |:-------------:|
-| *CK-Meta+1* | Yatay bölünmüş paneleri dikeye çevir |
-| *CK-Meta+2* | Dikey bölünmüş paneleri yataya çevir |
+| *CK-Alt+1* | Yatay bölünmüş paneleri dikeye çevir |
+| *CK-Alt+2* | Dikey bölünmüş paneleri yataya çevir |
 
 ####Yazı seçme
 
