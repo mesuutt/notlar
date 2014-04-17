@@ -3,11 +3,13 @@
 Urls:
 
 `catalogue:product_edit`
+
 `catalogue:product_list`
 
 Views:
 
 `UserListView`
+
 `ProfileEditFormView`
 
 
