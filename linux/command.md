@@ -3,4 +3,8 @@
   
   ```DISPLAY=":0.0" import -window root screenshot.png```
 
+=======
+
+- [tldr](https://github.com/tldr-pages/tldr): Simplified and community-driven man pages
+- [cheat](https://github.com/jahendrie/cheat): Komutlar ve kullanimlari hakkinda cheatsheet'leri incelemeni sagliyor. tldr'ye benzer fakat tldr man pageleri online ariyor. Bu sheetleri localde tutuyor
 
