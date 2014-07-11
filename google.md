@@ -13,4 +13,4 @@ OR:
 
 ======
 
-[Daha fazlasi](https://raw.github.com/mesuutt/notlar/master/assets/google-tips.jpg)
+![Google tips](https://raw.github.com/mesuutt/notlar/master/assets/google-tips.jpg)
