@@ -3,6 +3,9 @@
   
   ```DISPLAY=":0.0" import -window root screenshot.png```
 
+- Networkdeki makinalari bulmanin basit yontemi: `arp -a -n`
+
+
 =======
 
 - [tldr](https://github.com/tldr-pages/tldr): Simplified and community-driven man pages
