@@ -43,12 +43,6 @@ docker cp mycontainer:/foo.txt foo.txt
 - Volume eklerken mount edecegimiz dizinin tam yolunu vermeliyiz.
 
     `docker run --rm -v `pwd`/code:/code:rw -ti --name=con_blog mesuutt/blog`
-- Container i baska bir user ile calistirma
-    `docker run -u=0 .....`  => Container i root ile calistirir.
-
-** Copy file from container to host
-    `docker cp CONTAINER:PATH HOSTPATH`
-
 
 FAQ
 ---
