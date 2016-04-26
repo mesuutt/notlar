@@ -31,6 +31,13 @@ Bulundugumuz dizindeki Dockerfile ile container build etme
 docker build -t mesuutt/firefox .
 ```
 
+Host ile container arasinda dosya transferi
+
+```
+docker cp foo.txt mycontainer:/foo.txt
+docker cp mycontainer:/foo.txt foo.txt
+
+```
 
 
 - Volume eklerken mount edecegimiz dizinin tam yolunu vermeliyiz.
@@ -53,3 +60,4 @@ Simply allow the docker user to communicate with your X session
 ```
 xhost +local:docker
 ```
+
