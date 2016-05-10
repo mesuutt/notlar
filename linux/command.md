@@ -4,7 +4,7 @@
   ```DISPLAY=":0.0" import -window root screenshot.png```
 
 - Networkdeki makinalari bulmanin basit yontemi: `arp -a -n`
-
+- Makina kac bit: `getconf LONG_BIT`
 
 =======
 
