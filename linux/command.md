@@ -5,6 +5,7 @@
 
 - Networkdeki makinalari bulmanin basit yontemi: `arp -a -n`
 - Makina kac bit: `getconf LONG_BIT`
+- Port Acikmi: `nc -vz host port`
 
 =======
 
