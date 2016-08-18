@@ -2,7 +2,7 @@
 
 herkes bunu kullanıyor. ucuz. 
 uzerinde wifi bulunan micro controller. 
-wifi uzerinden data alıp baglı oldugu 
+wifi uzerinden baglı oldugu 
 sensorlerdeki datayı wifi uzerinden  alıp veriyor.
 
 
