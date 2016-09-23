@@ -15,22 +15,13 @@ Views:
 
 -----------
 
+###Pacakages:
 
-####Formlarda fieldlarin sirasini belirleme
+- [django-polymorphic](https://github.com/django-polymorphic/django-polymorphic)
+: Base modele istek yapinca inherit olan model class donduruyor.
 
-`````python
-class MyCustomForm(forms.Form):
-    def __init__(self, *args, **kw):
-        super(MyCustomForm, self).__init__(*args, **kw)
+- Translations
 
-        api_token = forms.CharField(label=_("Token"), ...)
-        self.fields['api_token'] = api_token
+    - [django-hvad](https://github.com/KristianOellegaard/django-hvad)
 
-        self.fields.keyOrder = [
-            'username',
-            'email',
-            'api_token',
-            'password',
-        ]
-        
-`````
+
