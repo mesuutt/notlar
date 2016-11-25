@@ -44,14 +44,27 @@ docker cp mycontainer:/foo.txt foo.txt
 
     `docker run --rm -v `pwd`/code:/code:rw -ti --name=con_blog mesuutt/blog`
 
-FAQ
 ---
-Note: If you receive the following Gtk error:
-```
-Gtk-WARNING **: cannot open display: unix:0.0
-```
-Simply allow the docker user to communicate with your X session
+### X sunucusu erisimi
+
+Docker container icinde calisan bir uygulamanin X sunucusu ile baglanti kurabilmesi icin 2 yontem var.
+Birinci ve *en tehlikeli* yonten acccess control listeleri.
+
 ```
 xhost +local:docker
+xhost + # Bu en tehlikelisi. X sunucumuz artik butun baglantilari kabul eder.
 ```
 
+
+Bir digeri ise Xauth ile cookie based auth. Bu daha guvenli.
+Zaten varolan Xauthority dosyamizi container a mount ederek
+containerin X sunucumuza baglanti kurabilmesine izin verebiliriz.
+
+```
+-v ~/.Xauthority:/.Xauthority:ro
+-e XAUTHORITY=/.Xauthority
+```
+
+http://www.tldp.org/HOWTO/Remote-X-Apps-6.html
+
+---
