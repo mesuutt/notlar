@@ -10,6 +10,10 @@ xrandr --output HDMI1 --mode 1920x1080 --left-of LVDS1
 
 xrandr --output LVDS1 --off
 
+### Ekrani ac
+
+xrandr --output LVDS1 --auto
+
 ### Ekranin parlakligini dusurmek icin
 
 redshift -l -70.0:10.2 -t 3000:2000  -m randr -b 0.5 -O 3500
